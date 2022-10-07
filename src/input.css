@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  @apply bg-violet-500
+}
+
+.box {
+  grid-template-areas: "h h"
+                      "m a"
+                      "f f"
+}
+
+header {
+  grid-area: h;
+}
+
+main {
+  grid-area: m;
+}
+
+aside {
+  grid-area: a;
+}
+
+footer {
+  grid-area: f;
+}

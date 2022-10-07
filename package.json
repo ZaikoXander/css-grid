@@ -1,0 +1,15 @@
+{
+  "name": "css-grid",
+  "version": "1.0.0",
+  "description": "- Bidimensional\r - Divisão de toda a página em linhas e colunas\r - Colocar elementos onde quiser nessa divisão",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
